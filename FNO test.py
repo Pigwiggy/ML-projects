@@ -205,7 +205,7 @@ for index in range(3):
 fig.suptitle('Inputs, ground-truth output and prediction (32x32).', y=0.98)
 plt.tight_layout()
 plt.show()
-
+#
 # %%
 # We only trained the model on data at a resolution of 16x16, and with no modifications
 # or special prompting, we were able to perform inference on higher-resolution input data
